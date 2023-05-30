@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+
+*{ 
+	margin: 0px;
+	padding: 0px;
+}
+
+.content{
+	margin: 20px auto;
+	width: 600px;
+	border: #999 solid 5px;
+	padding:10px;
+	
+}
+.content h1{
+	color: red;
+	text-align: center;
+}
+.content div.row{
+	margin-top: 20px;
+}
+.content div.row span{
+	display: inline-block;
+	width: 255px;
+	text-align: right;
+}
+.content div.row input[type=submit]{
+	padding: 3px auto 5px auto;
+margin: 0px auto;
+	display: block;
+	
+}
